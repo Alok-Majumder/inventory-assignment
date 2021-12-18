@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -15,7 +14,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello")
 
 	ctx := context.Background()
 
