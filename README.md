@@ -144,4 +144,7 @@ VALUES ('Dining Chair', '1', 4),
   2. Security
   3. Write a logger library
   4. Need to add few more unit test cases
-  5. Need to improve Error Handling if DB connection failed 
+  5. Need to improve Error Handling if DB connection failed
+  6. I have another design to consider:
+      Introducing a New table PRODUCTQTY.
+      This Table will consists PRODUCT and it's available quantity. This table will be populated at the time of data load. Also will be updated by the sell API. 
