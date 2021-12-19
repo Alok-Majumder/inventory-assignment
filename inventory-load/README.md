@@ -14,8 +14,3 @@ go run main.go [FILENAME]
 2. Only Basic coding standard has been established as per the go standard and best practices. 
 
 
-## Folder Description
-
-
-    ├── inventory-assignment  #This folder contains the API Service for Sell and Get Product Details
-    ├── inventory-load       #This folder contains datalaod service to load data from file to PostgresDB
